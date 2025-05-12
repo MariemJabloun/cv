@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<title>CV-Mariem-Jabloun-EN</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.css">
+<script src="https://cdn.jsdelivr.net/gh/casualwriter/casual-markdown/dist/casual-markdown.js"></script>
+<style>  
+  :root {
+    --primary-color: #17B4A5;
+    --secondary-color: #0D8A7D;
+    --hover-color: rgb(183, 120, 20);
+    --link-color: rgb(32, 123, 116);
+    --white: rgb(249, 249, 250);
+  }
+
+  body {
+    line-height: 1.5;
+    margin: auto;
+    padding: 3px;
+    max-width: 1024px;
+    display: none;
+    font-family: "Segoe UI", Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 200%;
+    padding: 16px;
+    border: 1px solid lightgrey;
+    color: var(--white);
+    background: var(--primary-color);
+  }
+
+  h2 {
+    border-bottom: 1px solid grey;
+    padding: 2px;
+    color: var(--secondary-color);
+  }
+
+  a {
+    flex: 1;
+    text-decoration: none;
+    outline-color: transparent;
+    color: var(--link-color);
+  }
+
+  a:hover {
+    background: var(--hover-color);
+  }
+
+  .contact-info {
+    float: right;
+    padding: 6px;
+    color: var(--white);
+  }
+
+  .contact-info a {
+    color: var(--white);
+  }
+
+  @media print {
+    h1, .contact-info, .contact-info a {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      color: var(--white) !important;
+    }
+    
+    h1 {
+      background: var(--primary-color) !important;
+    }
+  }
+</style>
+
+<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block'; 
+              document.getElementById('qrcode').src='https://www.moncvparfait.fr/wp-content/uploads/sites/4/2023/03/uk-man-2-OPTIMISED.jpg?w=300';">
+
+<span class="contact-info"> 
+  📧 mariem.jabloun@gmail.com <br> 📞  06 11 09 61 24 <br>  🔗 [LinkedIn](https://linkedin.com/in/mariem-jabloun) | [Medium](https://medium.com/@mariem.jabloun)
+</span>
+
+<body onload="document.body.innerHTML=md.html(document.body.innerHTML); document.body.style.display='block'; 
+              document.getElementById('qrcode').src='https://www.moncvparfait.fr/wp-content/uploads/sites/4/2023/03/uk-man-2-OPTIMISED.jpg?w=300';">
+<!--<img id=qrcode style="float:right; margin:5px; border:1px solid lightgrey; width:70px" />
+
+<img style="float:right;border-radius:50%;width:70px;padding:6px" src="avatar-man.jpg" />-->
+
+# Mariem Jabloun
+### AI/Cloud Solution Architect
+Bridging AI theory with real-world deployment, specializing in LLMs, AI Agents, robotics, and cloud-native ML
+
+## CAREER HIGHLIGHTS
+
+✔  **Built RAG pipelines** for knowledge bases using **LlamaIndex & LangChain**  
+✔  **Designed AI agent workflows** (AutoGPT, BabyAGI) for automated task orchestration    
+✔  **Mentored 500+ students** on Udemy in **Prompt Engineering**  
+✔  **Architected AI-driven CloudRan solutions** improving **fault resiliency by 25%** (Ericsson)  
+✔  **Drove 360% sales growth** for QatarBestDeals.com (cloud e-commerce platform) <br/>
+✔  **Led 2 international project transfers** (Poland → France) with zero downtime
+
+## Compétences Techniques
+
+- 🔐 **LLMs**: GPT-4, Llama 2, Anthropic Claude AI, Mistral, RAG, RLHF, Fine-Tuning (LoRA, Prompt-Tuning), LangChain, AutoGPT
+- 🖼️ **Text-to-Speech (TTS)**: OpenAI Whisper, ElevenLabs, Tortoise-TTS, Kokoro 
+- 🔊 **Speech-to-Text (STT)**: Whisper, Wav2Vec 2.0, DeepSpeech
+- 🔍 **Fine-Tuning:** LoRA, P-Tuning, RLHF, Hugging Face Transformers
+- 💾 **Data & APIs:** Pinecone, Weaviate, FAISS, Kafka, REST, Talend ETL
+- 🖥️ **Agents:** AutoGen, Semantic Kernel, Dify, Agentic RAG, MPC 
+- ☁️ **Cloud** : AWS (EKS, Lambda, S3, RDS), Azure 
+- ⚙️ **CI/CD & IaC** : GitLab CI, GitHub Actions, Jenkins, ArgoCD, MLOps  
+- 🤖 **Humanoid Robotics**: ROS2, URDF, Isaac Sim, Sensor Fusion, Kinematics
+
+## PROFESSIONAL EXPERIENCE
+
+### AI Enthusiaste
+**Freelance **|  2023 – Present
+
+- Creating **Udemy courses** on LLM in Depth, AI agents, RAG, Agentic RAG, and AgentOps.
+- Designed and launched Udemy course Prompt Engineering for Vision Models AI (4.85/5 avg. rating)
+- Launched Medium Blog about AI agents, Generative AI, LLM SecOps.
+- Developed custom AI agents integrating LangChain, RAG, and multi-agent collaboration (MCP) to automate complex workflows, reducing manual effort by 40%.
+- Self-Trained on ROS2, URDF, and Isaac Sim. Model Predictive Control (MPC) and SLAM for autonomous navigation, with RLHF fine-tuning for adaptive behavior.
+- Earned AWS Solutions Architect Certification.
+
+
+### SOLUTION ARCHITECT
+**Ericsson - Capgemini Engineering** |Oct 2021 – July 2022
+- Led cross-functional workshops with **stakeholders, lead architects, product owners, and experts** to validate proposals and drive decision-making for for CloudRan LCM project.
+- Delivered **critical technical studies**, influencing architectural direction for  **CloudRan solution**.
+- Successfully led the transfer of 2 major projects from Poland to Ericsson France, ensuring seamless knowledge transition.
+- Designed **ML pipeline** for CloudRan boosting **fault resiliency by 25%** (Kafka + Python + AI).
+- Cut CI/CD failures **40%** by migrating to **ArgoCD/Flux**.
+
+
+### Tech Lead
+**RvrParad By Devoteam (Internal)** | Dec 2019 – July 2021
+
+- Optimized GRC platform performance by refactoring legacy code, upgrading tech stacks, and enhancing web services, resulting in a 30% efficiency improvement.
+- Designed & deployed RESTful microservices using Spring WebFlux (Reactive), enabling seamless integration with Microsoft Power BI for real-time analytics.
+- Enhanced security by implementing Keycloak OAuth as the IAM (Identity & Access Management) solution, streamlining authentication workflows.
+- Led client workshops to demo **Talend ETL** new integration features and integration solutions, improving adoption and stakeholder alignment.
+
+### Co-Founder & COO
+**QatarBestDeals.com - Riyada Qatar** | Jan 2015 – Oct 2019
+
+- Launched a cloud-based e-commerce platform, scaling to 40+ partners (Electronics) and achieving **360% sales growth in Year 1**.
+- Drove **data-driven decision-making** by Implemented product analytics, studied user behavior (signups, cart abandonment, etc.), and optimized marketing/sales strategies.
+- Led agile cross-functional teams (engineering, marketing, sales) to enhance UX, integrate new features, and develop a mobile app.
+- **Pitched successfully to investors** and built partnerships by analyzing distributor markets to improve outcomes.
+
+### Senior Software Engineer
+**Labeeb IoT- Qmic Qatar** | June 2013 – Dec 2014
+- **Architected a cloud-based IoT platform for smart cities**, designing distributed, resilient microservices (Spring-Integration, Hibernate, REST).
+- Led Agile development (sprint planning, stand-ups, retrospectives) and cut defect rates by 20% via robust testing (unit/integration/E2E).
+- Deployed scalable microservices, achieving **13x higher load tolerance** vs. legacy iTraffic solutions.
+- Optimized performance: Delivered the first platform version with exceptional response speed under high traffic.
+
+### Software Engineer
+**Sogeti- Bougues, GDF Suez, Societé Genérale** | Jan 2011– Mars 2013
+- **GDF Suez**: Owned production health (deployment/incidents/urgent requests), for critical **Gaz Transactions**, maintaining 99%+ application uptime. 
+- **Bougues Telecom**: Designed & implemented web services for subscription management, enhancing platform functionality. 
+- **Société Générale**: Led critical migration app migration, resolving compatibility bugs and improving security.
+- Proposed architectural optimizations to project leads and contributed to test suite development.
+
+## Education & CERTIFICATION
+- 🏅 AWS Solution Architect Associate | 🔗 [Voir mes badges sur Credly](https://www.credly.com/users/Mariem-jabloun)
+- **ENSI & Telecom SudParis, France** | Sept 2009 - June 2010:  **Master 2** | Allocation traffic in real-time using MIMO-OFDMA technology based on WiMAX
+- **University Pierre & Marie Curie (LIP6), Paris** | Feb-May 2009: **Computer Engineering Graduation Project** |Session Redirection in a multi-homed mobile”.
+- **ENSI Tunis** 2006 - 2010 | **Master Degree in Computer Science**
+- **Preparatory Institute for Engineering Studies** 2004 - 2006
+
+## 🌐 Languages & Interests
+
+🇫🇷 French (Native) | 🇬🇧 English (Professional)
+
+🎯Karate | 📚 Tech Blogging | 🤖 Robotics Prototyping
+
